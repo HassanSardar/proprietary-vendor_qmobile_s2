@@ -1,10 +1,9 @@
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/infinix/d5110_infinix/bin,system/bin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/qmobile/s2/bin,system/bin)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/infinix/d5110_infinix/lib,system/lib)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/qmobile/s2/lib,system/lib)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/infinix/d5110_infinix/etc,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/qmobile/s2/etc,system/etc)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/infinix/d5110_infinix/vendor,system/vendor)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/qmobile/s2/vendor,system/vendor)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/infinix/d5110_infinix/xbin,system/xbin)
-
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/qmobile/s2/xbin,system/xbin)
